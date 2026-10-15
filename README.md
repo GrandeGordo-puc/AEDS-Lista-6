@@ -5,10 +5,10 @@ Projeto codificado em C.
 O Objetivo do projeto é criar um arquivo com texto escrito pelo usuário e falar quantas vezes o caractere 'a' aparece.
 Copie o código e o coloque no code blocks e execute.
 
-#include <stdio.h>
-#include <stdlib.h>
+    #include <stdio.h>
+    #include <stdlib.h>
 
-int main() {
+    int main() {
     FILE *fp = fopen("Lista6Exercicio2.txt", "w");
     char c[255];
     int charA = 0;
